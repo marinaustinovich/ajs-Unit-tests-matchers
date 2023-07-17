@@ -43,5 +43,6 @@ test.each([
   ],
 ])(('should sort from highest to lowest for %s health numbers'), (level, data, expected) => {
   const result = sortHeroes(data);
+
   expect(result).toEqual(expected);
 });
